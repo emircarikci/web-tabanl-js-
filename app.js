@@ -170,7 +170,7 @@ window.onload = function() {
     }
 
     function canArttir(event) {
-        if (!oyunBitti && event.key === 'q' && oyuncuCan < 2) {
+        if (!oyunBitti && event.key === 'q' && oyuncuCan < 2 && kalanCanArtisiSuresi == 0) {
             oyuncuCan++; 
             canGoster.innerText = 'Can: ' + oyuncuCan; // Canı güncelle
             // Can artışını kontrol etmek için zamanlayıcıyı başlat
@@ -188,6 +188,7 @@ window.onload = function() {
             }
         }
     }
+    
 
     function oyuncuyuGorunmezYap(event) {
         if (!oyunBitti && event.key === ' ') {
@@ -218,7 +219,7 @@ window.onload = function() {
     }
 
     function engelHiziniArttir(event) {
-        if (!oyunBitti && event.key === 'ArrowUp' && hizArtisSayisi < 3) {
+        if (!oyunBitti && event.key === 'ArrowUp' && hizArtisSayisi < 8) {
             engelHizi -= 10; 
             hizArtisSayisi++; // Hız artış sayacını arttır
             kalanSureyiGuncelle(); 
@@ -264,8 +265,9 @@ window.onload = function() {
 
     // Sayfa yenilendiğinde en yüksek skoru sıfırla
     window.addEventListener('beforeunload', function() {
-        localStorage.setItem('enYuksekSkor', enYuksekSkor); 
+        localStorage.setItem('enYuksekSkor', 0); // En yüksek skoru sıfırla
     });
+    
 
     oyunuBaslat();
 };
