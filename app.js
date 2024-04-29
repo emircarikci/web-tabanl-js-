@@ -119,7 +119,7 @@ window.onload = function() {
                     skor++; // Skoru arttır
                     skorGoster.innerText = 'Skor: ' + skor + ' En Yüksek Skor: ' + enYuksekSkor; // Skoru güncelle
                     // Hızı arttır
-                    if (engelHizi > 2) { // Minimum hızı 2 olarak sınırla
+                    if (engelHizi > 12) { // Minimum hızı 2 olarak sınırla
                         engelHizi -= 2;
                     }
                     engelOlustur(); // Yeni bir engel oluştur
