@@ -1,2 +1,2 @@
-# web-tabanl-js-
+# web-tabanlı-js-
 oyun
