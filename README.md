@@ -1,4 +1,5 @@
   Engel'den Kaçma Oyunu
+  
 Bu proje, basit bir engel kaçma oyununu JavaScript kullanarak oluşturur. Oyun, tarayıcıda oynanabilir ve oyuncunun engellerden kaçarak en yüksek skoru elde etmeye çalıştığı bir platformda geçer.
 
 Nasıl Oynanır
