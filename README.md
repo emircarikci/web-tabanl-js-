@@ -16,3 +16,7 @@ Bu projeyi bilgisayarınıza klonlayın veya indirin.
 İndirdiğiniz klasörde bulunan "index.html" dosyasını bir web tarayıcısıyla açarak oyunu başlatın.
 
 Bu README dosyası, projenin nasıl oynanacağı ve kurulum talimatları içerir. İlgili bölümleri kendi projenize göre özelleştirebilirsiniz.
+
+<img src="oyuniciss.png">
+
+<img src="oyuniciss2.png"> 
