@@ -219,7 +219,7 @@ window.onload = function() {
     }
 
     function engelHiziniArttir(event) {
-        if (!oyunBitti && event.key === 'ArrowUp' && hizArtisSayisi < 3) {
+        if (!oyunBitti && event.key === 'ArrowUp' && hizArtisSayisi < 4) {
             engelHizi -= 10; 
             hizArtisSayisi++; // Hız artış sayacını arttır
             kalanSureyiGuncelle(); 
